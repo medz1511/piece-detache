@@ -1,7 +1,7 @@
 const reponse = await fetch("pieces-autos.json");
 const pieces = await reponse.json();
 // creation de la variable qui va representer l'article
-const article = pieces[3]
+const article = pieces[0]
 // creation des element de  l'article 
 const imgElement = document.createElement("img")
 imgElement.src = article.image
