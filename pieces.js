@@ -39,4 +39,23 @@ for (let i = 0; i < pieces.length; i++) {
 
 }
 
+let btntrier = document.querySelector('.btn-trier')
+btntrier.addEventListener("click", function () {
+
+    let tabeauOrdonne = Array.from(pieces)
+    tabeauOrdonne.sort(function (a, b) {
+
+        return a.prix - b.prix
+    })
+    console.log(tabeauOrdonne)
+})
+
+let btnfitrer = document.querySelector('.btn-filter')
+btnfitrer.addEventListener('click', function () {
+    btn
+})
+
+
+
+
 // imgElement = article.nom
